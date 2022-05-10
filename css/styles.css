@@ -891,16 +891,19 @@ button[data-modal-close]:focus {
     width: 15px;
     height: 15px;
     margin-right: 10px;
-background-image: url("../images/sprite.svg#icon-smartphone");
+
     border: 2px solid #2a2a2a;
     border-radius: 4px;
+
 }
 .check-input:checked + .form-icon-check {
     border-color: transparent;
     background-color: var(--accent-color);
-    
-    background-size: contain;
+    background-image: url("../images/vector.svg");
+    background-size: 11px 8px;
     background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
 
   } 
 
